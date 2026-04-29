@@ -1,151 +1,66 @@
-# RepoConCodex
-En este repositorio pondremos en practica el Codex para documentar las practicas en modo Agentic Coding
-
-# Actividad: Diseño de Propuesta de Práctica Temática
+# Actividad de GitHub Classroom: Diseño de una Propuesta de Práctica Temática Pequeña
 
 ## Descripción general
+En esta actividad vas a diseñar una propuesta de práctica temática pequeña orientada a arquitectura de computadoras y programación de sistemas. El enfoque principal es la **documentación**, la **planeación**, la **organización del repositorio** y la **justificación técnica** de tu idea.
 
-En esta actividad desarrollarás la **propuesta formal de una práctica pequeña** enfocada en programación de sistemas, arquitectura de computadoras o automatización básica.
-
-La prioridad es **documentar, justificar y estructurar correctamente la idea** antes de implementar código.
-
-El objetivo es que construyas una propuesta viable, pequeña y bien organizada dentro de un repositorio real de GitHub Classroom.
-
----
+La implementación de código es secundaria y se limita a un prototipo mínimo, viable para el tiempo del curso y para herramientas con uso limitado.
 
 ## Objetivo de aprendizaje
-
-Al finalizar esta actividad serás capaz de:
-
-- Diseñar una práctica técnica pequeña y viable.
-- Justificar técnicamente la elección de un lenguaje.
-- Definir claramente entradas, salidas y restricciones.
-- Organizar un repositorio de forma profesional.
-- Documentar casos de uso y pruebas.
-- Implementar opcionalmente un prototipo mínimo.
-
----
+Al finalizar la actividad, el estudiante será capaz de:
+- Delimitar un problema pequeño y técnicamente viable.
+- Justificar la selección de lenguaje según el caso de uso.
+- Diseñar una estructura de repositorio clara para GitHub Classroom.
+- Documentar entradas, salidas, riesgos y pruebas mínimas.
+- (Opcional) Implementar un prototipo mínimo en terminal.
 
 ## Lenguajes permitidos
-
-Puedes elegir uno de los siguientes:
-
 - ARM64 Assembly
 - C
 - Python
 - Bash
 
-### Recomendaciones
-
-### ARM64 Assembly
-
-Usarlo únicamente para programas pequeños como:
-
-- calculadora básica
-- conversor simple
-- operaciones aritméticas básicas
-- manejo básico de cadenas
-- lectura/escritura mínima en terminal
-
-### C
-
-Ideal para:
-
-- herramientas pequeñas de consola
-- procesamiento simple de archivos
-- utilidades del sistema
-
-### Python
-
-Ideal para:
-
-- automatización sencilla
-- procesamiento de texto
-- asistentes de terminal
-
-### Bash
-
-Ideal para:
-
-- automatización de tareas
-- organización de archivos
-- reportes del sistema
-
----
-
 ## Reglas para mantener el proyecto pequeño
-
-Tu proyecto debe cumplir lo siguiente:
-
-- máximo 3 funcionalidades principales
-- máximo 5 archivos fuente
-- máximo 10 funciones
-- sin frameworks
-- sin bases de datos
-- sin Docker
-- sin nube
-- sin APIs externas
-- sin dependencias complejas
-- sin interfaces gráficas
-- sin redes
-
-La idea es mantenerlo compatible con herramientas gratuitas de IA con límites de uso.
-
----
-
-## Ejemplos de temas posibles
-
-- Mini Toolkit en ARM64
-- Asistente de Estudio en Terminal
-- Reporteador de Información del Sistema
-- Organizador de Archivos
-- Juego de Aprendizaje en Línea de Comandos
-
----
+1. El proyecto debe resolver **una sola necesidad concreta**.
+2. Debe ejecutarse en terminal, sin interfaz gráfica compleja.
+3. No se permiten frameworks ni arquitecturas grandes.
+4. No se permite nube, Docker, APIs externas ni bases de datos.
+5. Máximo sugerido: 1 archivo principal en `src/` y funciones cortas.
+6. Si eliges ARM64 Assembly, limita el alcance a programas muy pequeños.
 
 ## Entregables esperados
-
-Debes entregar:
-
-- propuesta técnica completa
-- caso de uso documentado
-- estructura del repositorio justificada
-- plan de pruebas documentado
-- checklist de pruebas
-- prototipo mínimo (opcional)
-
----
+1. `docs/propuesta.md` completo.
+2. `docs/caso_de_uso.md` completo.
+3. `docs/estructura_repositorio.md` revisado y aplicado.
+4. `docs/plan_de_pruebas.md` con casos mínimos.
+5. `tests/test_plan.md` con checklist final.
+6. (Opcional) Prototipo funcional mínimo en `src/main.<ext>`.
+7. Script `scripts/run.sh` adaptado a tu lenguaje.
 
 ## Instrucciones para el estudiante
-
-1. Define tu idea de proyecto.
-2. Elige un lenguaje adecuado.
-3. Llena `docs/propuesta.md`.
-4. Documenta un caso de uso en `docs/caso_de_uso.md`.
-5. Revisa y adapta la estructura del repositorio.
-6. Define pruebas en `docs/plan_de_pruebas.md`.
+1. Lee este `README.md` completo.
+2. Define un tema pequeño y realista.
+3. Llena primero `docs/propuesta.md`.
+4. Describe tu escenario en `docs/caso_de_uso.md`.
+5. Revisa la organización en `docs/estructura_repositorio.md`.
+6. Diseña y registra pruebas en `docs/plan_de_pruebas.md`.
 7. Completa el checklist en `tests/test_plan.md`.
-8. Implementa un prototipo mínimo si el tiempo lo permite.
-
----
+8. Si el tiempo alcanza, implementa un prototipo mínimo.
+9. Verifica que tu repositorio sea claro, ordenado y ejecutable.
 
 ## Criterios generales de evaluación
+- Claridad del problema y su alcance.
+- Coherencia entre lenguaje elegido y solución propuesta.
+- Calidad de la documentación técnica.
+- Organización del repositorio.
+- Definición de pruebas mínimas y criterios de éxito.
+- Viabilidad técnica del prototipo (si se implementa).
 
-| Criterio | Valor |
-|---|---:|
-| Claridad de la propuesta | 25% |
-| Justificación técnica | 20% |
-| Caso de uso | 15% |
-| Organización del repositorio | 15% |
-| Plan de pruebas | 15% |
-| Prototipo mínimo (opcional) | 10% |
-
----
+## Temas sugeridos
+- “Mini Toolkit en ARM64”
+- “Asistente de Estudio en Terminal”
+- “Reporteador de Información del Sistema”
+- “Organizador de Archivos”
+- “Juego de Aprendizaje en Línea de Comandos”
 
 ## Nota importante
-
-Primero debes **documentar y justificar la propuesta**.
-
-La implementación es secundaria y opcional.
-
-La calidad de la planeación vale más que la cantidad de código.
+**Primero se documenta y justifica la idea.** Después, de forma opcional, se implementa un prototipo pequeño. No se espera un sistema completo.
